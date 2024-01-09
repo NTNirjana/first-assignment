@@ -1,6 +1,7 @@
-
-.body{
+.body {
     font-family: 'Merriweather', serif;
+    margin: 50px;
+    position: static;
 }
 
 
@@ -11,11 +12,12 @@
     background-repeat: no-repeat;
     border-radius: 10px;
     justify-content: center;
+    background: linear-gradient();
+    margin: 30px;
 
 }
 
-
-.banner-content {
+. .banner-content {
     text-align: center;
 }
 
@@ -24,7 +26,7 @@
     text-align: center;
     color: white;
     padding: 130px 0px 0px 30px;
-    font-family: Merriweather;
+    font-family: 'Merriweather', serif;
     font-size: 40px;
     font-weight: 400;
 }
@@ -34,8 +36,111 @@
     color: white;
     font-size: 75px;
     padding: 0px 150px 150px 230px;
-    font-family: Merriweather;
+    font-family: 'Merriweather', serif;
     font-weight: 900;
     line-height: 95px;
 
 }
+
+.secondpart {}
+
+.parainp2 {
+    color: #F00;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.desinp2 {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 0px;
+}
+
+.part2 {
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0px 400px;
+}
+
+.imgp2 {
+    width: 580px;
+    height: 330px;
+    margin: 35px 350px;
+}
+
+
+/*main section*/
+.main {
+    margin: 50px;
+}
+
+.imgp3 {
+    max-width: 1650px;
+    max-height: 530px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.p4-title {
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+}
+
+.assgnmnt {
+    background-position: center;
+    max-width: 1300px;
+    max-height: 7335px;
+}
+
+.title {
+    color: #070211;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.color {
+    color: #F00;
+}
+
+.descip {
+    margin-left: 450px;
+}
+
+.descrip {
+    margin-left: 360px;
+}
+
+.descip2 {
+    margin-left: 480px;
+}
+
+.picofdiscount {
+    width: 1320px;
+    height: 650px;
+    background: url('../images/Rectangle\ 2.png'), url('../images/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    background-position: bottom, top right;
+    display: flex;
+}
+
+.ppp {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.part5 {}
