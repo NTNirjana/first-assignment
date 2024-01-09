@@ -1,7 +1,8 @@
 .body {
     font-family: 'Merriweather', serif;
     margin: 50px;
-    position: static;
+    position: relative;
+    
 }
 
 
@@ -12,20 +13,22 @@
     background-repeat: no-repeat;
     border-radius: 10px;
     justify-content: center;
-    background: linear-gradient();
+   
+    max-width: 1650px;
+    max-height: 1000px;
     margin: 30px;
-
+    padding-bottom: 200px;
 }
 
 .banner-content {
     text-align: center;
+    padding-top: 130px;
+    padding-left: 120px;
 }
-
 
 .banner-greeting {
     text-align: center;
     color: white;
-    padding: 130px 0px 0px 30px;
     font-family: 'Merriweather', serif;
     font-size: 40px;
     font-weight: 400;
@@ -35,10 +38,10 @@
     text-align: center;
     color: white;
     font-size: 75px;
-    padding: 0px 150px 150px 230px;
     font-family: 'Merriweather', serif;
     font-weight: 900;
     line-height: 95px;
+    margin-top: -10px;
 
 }
 
@@ -73,6 +76,7 @@
     width: 580px;
     height: 330px;
     margin: 35px 350px;
+    margin-bottom: 150px;
 }
 
 
@@ -136,7 +140,7 @@
 
 .inkp4 {
     text-decoration: none;
-    padding-left: 100px;
+    padding-left: 180px;
     color: white;
     margin-top: -10px;
     font-family: 'Inter', sans-serif;
@@ -145,17 +149,38 @@
     padding-bottom: 230px;
 }
 
+.p5 {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin-bottom: 150px;
+
+}
+
+.p5des {
+    text-align: center;
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 56px;
+    padding-top: 10px;
+}
+
+.p5txtcl {
+    color: #F00;
+}
+
 .assgnmnt {
     background-position: center;
-    max-width: 1300px;
+    max-width: 1600px;
     max-height: 7335px;
+    margin-left: 50px;
 }
 
 .title {
     color: #070211;
     text-align: center;
     font-family: 'Merriweather', serif;
-    font-size: 72px;
+    font-size: 44px;
     font-weight: 900;
 }
 
@@ -173,23 +198,105 @@
 
 .descip2 {
     margin-left: 480px;
+    padding-bottom: 50px;
 }
 
 .picofdiscount {
-    width: 1320px;
+    width: 1120px;
     height: 650px;
+    border-radius: 15px;
     background: url('../images/Rectangle\ 2.png'), url('../images/Rectangle\ 1.png');
     background-repeat: no-repeat;
     background-position: bottom, top right;
     display: flex;
 }
 
+.boximg {
+    margin-left: 30px;
+    margin-top: 80px;
+    height: 500px;
+    width: 700px;
+}
+
+.cirimg {
+    padding-top: 100px;
+    height: 300px;
+
+}
+
 .ppp {
     color: #070211;
     font-family: 'Inter', sans-serif;
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
 }
 
-.part5 {}
+.cirpart {
+    display: flex;
+    width: 1600px;
+    margin-bottom: 90px;
+   margin-top: 100px;
+}
+
+.cp-1 {
+    width: 35%;
+}
+
+.cp-head {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.cp-title {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 0px;
+}
+
+.cpdes {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.cp {
+    border-radius: 463px;
+    border: 8px solid #F00;
+    border-radius: 50%;
+    padding: 20px;
+    width: 23%;
+    
+
+}
+
+.cp3{
+    padding-top: 10px;
+    margin-left: 80px;
+}
+.cp3t {
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: red;
+    width: 33%;
+    margin-bottom: 10px;
+}
+.cp3img{
+    margin-top: 40px;
+    margin-left: 10px;
+    width: 150px;
+}
+.port{
+    margin-right: 50px;
+    margin-top: 100px;
+}
+.pt{
+    color:#F00;
+}
